@@ -1,0 +1,21 @@
+settings =
+{
+
+	iphone =
+	{
+		xcassets = "Images.xcassets",
+
+		plist =
+		{
+			UILaunchStoryboardName = "LaunchScreen",
+			NSBonjourServices={"_appNameHere._tcp", "_appNameHere._udp"}, --replace appNameHere with a name for your app
+		},
+	},
+	plugins={
+		["plugin.multipeerConnectivity"] =
+		{
+			publisherId="tech.scotth",
+			marketplaceId = "(replace with Account ID in account page)"
+		},
+	}
+}
